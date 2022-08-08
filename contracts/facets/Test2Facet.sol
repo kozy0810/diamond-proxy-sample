@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-contract Test1Facet {
+contract Test2Facet {
     event TestEvent(address something);
 
     function test1Func1() external {}
