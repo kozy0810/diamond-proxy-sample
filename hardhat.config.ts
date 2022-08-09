@@ -26,13 +26,16 @@ const config: HardhatUserConfig = {
     deployer: 0
   },
   solidity: {
-    version: "0.8.9",
+    version: "0.8.13",
     settings: {
       optimizer: {
         enabled: true,
         runs: 100,
       },
     },
+  },
+  paths: {
+    sources: 'src',
   },
   contractSizer: {
     alphaSort: true,
